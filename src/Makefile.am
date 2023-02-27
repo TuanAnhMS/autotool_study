@@ -1,11 +1,11 @@
 # Our binary is produced here
 bin_PROGRAMS = main
-main_SOURCES = main.cc
+main_SOURCES = main.cxx
 
 # main library will be installed into the default directory for "bin"'s (hence we used the bin prefix)
 
 noinst_LIBRARIES = libhelper.a
-libhelper_a_SOURCE = helper.cc
+libhelper_a_SOURCES = helper.cxx
 # noinst_ : assures that this library is not installed to the user's computer.
 # libABC.A is a *nix convertion. if you noticed, we replace the . with _ in SOURCES line
 

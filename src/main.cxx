@@ -1,6 +1,6 @@
 #include <iostream>
 #include "helper.h"
-#include "./my_inc/myadd.h"
+#include "../my_inc/myadd.h"
 
 int main() {
     MyAdd add_obj;
