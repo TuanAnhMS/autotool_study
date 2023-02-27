@@ -12,6 +12,7 @@ AC_LANG(C++)
 
 # Let's set a C++ compiler.
 AC_PROG_CXX
+AC_PROG_CC
 
 # Let's specify where the Makefiles should be produced.
 # these are the same locations as your Makefile.in's, but name as Makefile only
